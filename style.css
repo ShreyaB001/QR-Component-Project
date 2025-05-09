@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit',sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+    align-items: center;
+    height:100vh
+}
+.box{
+    padding: 16px;
+    width: 300px;
+background-color: white;   
+text-align: center;
+
+border-radius: 20px; 
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+.box img{
+    width: 100%;
+    border-radius: 12px;
+margin-bottom: 16px;
+}
+.box h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 12px;
+}
+.box p{
+    font-size: 15px;
+    font-weight: 400px;
+    color: hsl(216, 15%, 48%);   
+}
